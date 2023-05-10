@@ -1,0 +1,28 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"C:\xampp\htdocs\phpsystem\public/../application/back\view\bookType\bookType_add.html";i:1538149518;}*/ ?>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/backcss/bookType.css" />
+<div id="bookTypeAddDiv">
+    <form id="bookTypeAddForm" enctype="multipart/form-data"  method="post">
+        <div>
+            <span class="label">类别名称:</span>
+            <span class="inputControl">
+				<input class="textbox" type="text" id="bookType_bookTypeName" name="bookType_bookTypeName" style="width:200px" />
+
+			</span>
+
+        </div>
+        <div>
+            <span class="label">可借阅天数:</span>
+            <span class="inputControl">
+				<input class="textbox" type="text" id="bookType_days" name="bookType_days" style="width:80px" />
+
+			</span>
+
+        </div>
+        <div class="operation">
+            <a id="bookTypeAddButton" class="easyui-linkbutton">添加</a>
+            <a id="bookTypeClearButton" class="easyui-linkbutton">重填</a>
+        </div>
+    </form>
+</div>
+<script> var backURL = "__PUBLIC__/index.php/back/";</script>
+<script src="__PUBLIC__/backjs/bookType/bookType_add.js"></script>
